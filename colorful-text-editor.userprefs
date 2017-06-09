@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{D32B69C1-0D8F-461D-ACFF-BB9058E685D6}|Default">
+  <MonoDevelop.Ide.ItemProperties.colorful-text-editor.iOS PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="colorful-text-editor/EditorPage.cs">
+    <Files>
+      <File FileName="colorful-text-editor/EditorPage.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
