@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{D32B69C1-0D8F-461D-ACFF-BB9058E685D6}|Default">
   <MonoDevelop.Ide.ItemProperties.colorful-text-editor.iOS PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="colorful-text-editor/EditorPage.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="colorful-text-editor/App.xaml.cs">
     <Files>
-      <File FileName="colorful-text-editor/EditorPage.cs" Line="1" Column="1" />
+      <File FileName="colorful-text-editor/EditorPage.cs" Line="5" Column="29" />
+      <File FileName="colorful-text-editor/App.xaml.cs" Line="21" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -6,9 +6,10 @@ namespace colorfultexteditor
     {
         public App()
         {
-            InitializeComponent();
+			InitializeComponent();
 
-            MainPage = new colorful_text_editorPage();
+			//var page = new TabbedPage();
+            MainPage = new NavigationPage(new EditorPage());
         }
 
         protected override void OnStart()
