@@ -44,7 +44,13 @@ namespace colorfultexteditor
 			};
 
 			SizePicker = new Picker {
-				Title = "My Options",
+				Title = "Size Options",
+				VerticalOptions = LayoutOptions.CenterAndExpand
+			};
+
+			FontPicker = new Picker
+			{
+				Title = "Font Options",
 				VerticalOptions = LayoutOptions.CenterAndExpand
 			};
 
@@ -70,6 +76,15 @@ namespace colorfultexteditor
 			var ColorText = new Entry();
 			label = new Label() { FontSize = 24 };
 
+			BoxView boxView = new BoxView
+			{
+				WidthRequest = 150,
+				HeightRequest = 150,
+				HorizontalOptions = LayoutOptions.Center,
+				VerticalOptions = LayoutOptions.CenterAndExpand
+			};
+
+
 			var RedColorButton = new Button()
 			{
 				Text = "RED",
@@ -82,7 +97,7 @@ namespace colorfultexteditor
 			var BlueColorButton = new Button() { Text = "BLUE", BackgroundColor = Color.Blue, TextColor = Color.White };
 			var GreenColorButton = new Button() { Text = "GREEN", BackgroundColor = Color.Green, TextColor = Color.White };
 
-			//RedColorButton.Clicked += OnButtonClicked;
+			RedColorButton.Clicked += OnButtonClicked;
 			//BlueColorButton.Clicked += OnButtonClicked;
 			//GreenColorButton.Clicked += OnButtonClicked;
 			
@@ -95,6 +110,7 @@ namespace colorfultexteditor
             var fs = new FormattedString();
 
             layout.Children.Add(SizePicker);
+            layout.Children.Add(FontPicker);
 			layout.Children.Add(ColorText);
 			buttonLayout.Children.Add(RedColorButton);
 			buttonLayout.Children.Add(BlueColorButton);
@@ -108,6 +124,12 @@ namespace colorfultexteditor
         public void ApplyFormatToText(){}
         public void AddIntoLabelFormatted(){}
 
+		void OnButtonClicked(object sender, EventArgs e)
+		{
+			var button = (Button)sender;
+			
+
+		}
     }
 }
 
